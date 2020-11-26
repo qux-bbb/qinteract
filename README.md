@@ -4,7 +4,14 @@
 2. 和 socket 的自动化交互
 
 
-## 命令行自动化交互
+## 安装
+```
+pip install qinteract
+```
+
+
+## 使用示例
+### 命令行自动化交互
 待调用程序（want_right.py）：  
 ```python
 # coding:utf8
@@ -45,7 +52,7 @@ print(content)
 ```
 
 
-## socket自动化交互
+### socket自动化交互
 服务端程序（server.py）:  
 ```python
 # coding:utf8
