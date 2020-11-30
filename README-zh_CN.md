@@ -1,17 +1,18 @@
-## Intro
-1. Automatic interaction with a console program
-2. Automatic interaction with a socket
+## 简单介绍
+两个功能：  
+1. 和命令行程序的自动化交互
+2. 和 socket 的自动化交互
 
 
-## Install
+## 安装
 ```
 pip install qinteract
 ```
 
 
-## Example
-### ProcessInteraction
-Program to be called (want_right.py):  
+## 使用示例
+### 命令行自动化交互
+待调用程序（want_right.py）：  
 ```python
 # coding:utf8
 # python3
@@ -30,7 +31,7 @@ else:
     print('Wrong!')
 ```
 
-Interaction:  
+自动化交互：  
 ```python
 # coding:utf8
 # python3
@@ -51,8 +52,8 @@ print(content)
 ```
 
 
-### SocketInteraction
-Server side program (server.py):  
+### socket自动化交互
+服务端程序（server.py）:  
 ```python
 # coding:utf8
 # python3
@@ -103,7 +104,7 @@ while True:
 serversocket.close()
 ```
 
-Interaction：  
+自动化交互：  
 ```python
 # coding:utf8
 # python3
